@@ -1,0 +1,15 @@
+
+
+The doctor reporting system requires a binary tree structure because the tree structure naturally shows hierarchical connections. 
+In a hospital environment, doctors often report to senior physicians or department heads, forming a clear management structure. 
+A tree allows each doctor to be connected to their direct reports while still maintaining an organized overall hierarchy. 
+The system structure maintains simplicity because all doctors can be added to the system without creating obstacles for understanding and navigating the structure.
+
+
+Different traversal methods become essential for processing data according to its required processing method. Preorder traversal becomes necessary for situations which require processing top-level doctors and leadership members before handling other tasks.
+Inorder traversal enables left-to-right information access which proves useful for displaying or reviewing structures in a logical sequence. 
+Postorder traversal functions as the optimal method for processing child nodes before their parent nodes in two situations which include reviewing junior doctors' reports before supervisor assessment and removing doctors from the system starting with the lowest-level employees.
+
+Heaps serve as the perfect data structure for disaster room operations because they maintain their most important patient at the highest position. A min-heap ensures that patients with the lowest urgency value, meaning the highest priority, are treated first. 
+The emergency system uses a heap structure which updates itself whenever patients enter or exit the system because emergency response needs requires constant priority adjustments.
+ The system enables staff members to find urgent patients because it allows them to access immediate care information without checking all available records, which makes the system both efficient and reliable.
